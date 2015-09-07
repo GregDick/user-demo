@@ -1,0 +1,22 @@
+{
+  "name": "user-demo",
+  "version": "1.0.0",
+  "homepage": "https://github.com/GregDick/user-demo",
+  "authors": [
+    "Greg Dick <gregory.j.dick@vanderbilt.edu>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "firebase": "~2.2.5",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.4"
+  }
+}

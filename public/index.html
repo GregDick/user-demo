@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My App</title>
+    <link rel="stylesheet" href="lib/build.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="onLoggedOut">
+        <div class="login">
+          <h1>Login</h1>
+          <form name="login">
+            <input placeholder="email" type="email" required>
+            <input placeholder="password" type="password" name="logPassword" required>
+            <input type="submit" value="Login">
+            <button class="toRegister">Register</button>
+          </form>
+        </div>
+        <div class="register hidden">
+          <h1>Register</h1>
+          <form name="register">
+            <input placeholder="email" type="email" required>
+            <input placeholder="password" type="password" name="firstPassword" required>
+            <input placeholder="re-type password" type="password" name="secondPassword" required>
+            <input type="button" value="Cancel">
+            <input type="submit" value="Register">
+          </form>
+        </div>
+      </div>
+      <div class="onLoggedIn">
+        <h1></h1>
+        <button>Logout</button>
+      </div>
+      <script src="lib/build.js"></script>
+      <script src="js/main.js"></script>
+    </div>
+  </body>
+</html>
